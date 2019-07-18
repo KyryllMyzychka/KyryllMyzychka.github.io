@@ -226,8 +226,9 @@ ul, li {
 	color: #b1b1b1;
 	font-size: 16px;
 	font-weight: 400;
-	margin-top: 30px;
-	float: left;
+	padding-top: 30px;
+	text-align: center;
+
 }
 
 .social-share {
@@ -457,23 +458,6 @@ div.scrollup:hover {
 
 	.picture {
 		width: 300px;
-	}
-}
-
-@media (max-width: 450px) {
-.footer {
-	height: 170px;
-}
-
-.rande {
-	float:none;
-	text-align: center;
-}
-
-.social-share {
-		float:none;
-		text-align: center;
-		margin-top: -20px;
 	}
 }
 
